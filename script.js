@@ -1,4 +1,4 @@
-// My Morning News website: theme toggle, mobile menu, and footer year. No tracking, no third-party code.
+// My Morning News website: theme toggle and mobile menu. No tracking, no third-party code.
 (function () {
   var root = document.documentElement;
 
@@ -34,7 +34,4 @@
     nav.addEventListener('click', function (e) { if (e.target.tagName === 'A') setOpen(false); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
   }
-
-  var year = document.getElementById('year');
-  if (year) year.textContent = String(new Date().getFullYear());
 })();

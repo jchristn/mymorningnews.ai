@@ -22,7 +22,7 @@ Then browse to http://127.0.0.1:12192.
 - `privacy.html`, `terms.html`, `support.html`, `delete-account.html`: pages the app stores require (privacy, support, and account deletion URLs). The privacy policy and terms are alpha drafts for review.
 - `404.html`: not-found page for GitHub Pages.
 - `styles.css`: styling, with light and dark themes driven by CSS variables (dark follows the system, with a toggle).
-- `script.js`: theme toggle, mobile menu, and footer year.
+- `script.js`: theme toggle and mobile menu.
 - `assets/`: logo, glyph, favicons, and the Open Graph image, generated from the main repository's `assets/`.
 - `CNAME`, `robots.txt`, `sitemap.xml`.
 
@@ -33,6 +33,10 @@ Sign up and log in go to `https://app.mymorningnews.ai/signup` and `https://app.
 ## Keeping it accurate
 
 Product claims come from the main repository's README and `MY_MORNING_NEWS_PLAN.md`. Anything not yet built is marked "coming soon". Product screenshots are added only after the interfaces have been reviewed and approved (plan section 34.1).
+
+## Ownership
+
+&copy; 2026 Lattice AI LLC. Every page's footer carries the same notice.
 
 ## Deployment
 
