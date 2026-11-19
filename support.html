@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support | My Morning News</title>
+  <meta name="description" content="Get help with My Morning News.">
+  <meta name="theme-color" content="#f5820d">
+  <link rel="canonical" href="https://mymorningnews.ai/support.html">
+  <link rel="icon" href="/assets/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/styles.css">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('mmn-theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { /* storage unavailable */ }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="My Morning News home">
+        <img src="/assets/glyph.png" alt="" width="36" height="36">
+        <span>My Morning News</span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="/#how">How it works</a>
+        <a href="/#your-way">Your way</a>
+        <a href="/#faq">FAQ</a>
+        <a class="nav-login" href="https://app.mymorningnews.ai/login">Log in</a>
+        <a class="btn btn-primary btn-small" href="https://app.mymorningnews.ai/signup">Sign up free</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch color theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg>
+        </button>
+        <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="doc">
+    <div class="container narrow">
+      <h1>Support</h1>
+      <p>Need a hand? Email <a href="mailto:hello@latticetech.ai">hello@latticetech.ai</a> from the address on your account and we'll get back to you. Please include what you were doing and, if you can, a screenshot.</p>
+
+      <h2>Common questions</h2>
+      <h3>I didn't get my verification or password reset email</h3>
+      <p>Check your spam or promotions folder, and make sure you used the same address you signed up with. You can request a new link from the sign-in page. Links expire after an hour.</p>
+
+      <h3>How do I add my briefing to a podcast app?</h3>
+      <p>In the web app, open the schedule you want, turn on audio, and copy its private feed link. In your podcast app, choose "add by URL" or "follow a show by URL" and paste it. Keep the link private: anyone with it can listen.</p>
+
+      <h3>My runs stopped</h3>
+      <p>You may have reached this month's usage cap. Your usage and the reset date are in Account settings. Runs resume automatically when the cap resets.</p>
+
+      <h3>Results aren't relevant enough</h3>
+      <p>Rate a few findings as relevant or not and say why. You can also edit the topic's brief, add sources you trust, or exclude ones you don't. Each run uses what you've told it.</p>
+
+      <h3>I run My Morning News myself</h3>
+      <p>For self-hosted installs, see the <a href="https://github.com/jchristn/MyMorningNews">documentation on GitHub</a> and open an issue there.</p>
+
+      <h2>Account and data</h2>
+      <ul>
+        <li><a href="/delete-account.html">Delete your account</a></li>
+        <li><a href="/privacy.html">Privacy policy</a></li>
+        <li><a href="/terms.html">Terms of service</a></li>
+      </ul>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="/assets/glyph.png" alt="" width="28" height="28">
+        <span>My Morning News</span>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/support.html">Support</a>
+        <a href="/delete-account.html">Delete account</a>
+        <a href="https://github.com/jchristn/MyMorningNews">GitHub</a>
+      </nav>
+      <p class="copyright">&copy; <span id="year">2026</span> My Morning News</p>
+    </div>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+</html>

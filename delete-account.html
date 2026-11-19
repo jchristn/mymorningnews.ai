@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delete your account | My Morning News</title>
+  <meta name="description" content="How to delete your My Morning News account and data.">
+  <meta name="theme-color" content="#f5820d">
+  <link rel="canonical" href="https://mymorningnews.ai/delete-account.html">
+  <link rel="icon" href="/assets/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/styles.css">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('mmn-theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { /* storage unavailable */ }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="My Morning News home">
+        <img src="/assets/glyph.png" alt="" width="36" height="36">
+        <span>My Morning News</span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="/#how">How it works</a>
+        <a href="/#your-way">Your way</a>
+        <a href="/#faq">FAQ</a>
+        <a class="nav-login" href="https://app.mymorningnews.ai/login">Log in</a>
+        <a class="btn btn-primary btn-small" href="https://app.mymorningnews.ai/signup">Sign up free</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch color theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg>
+        </button>
+        <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="doc">
+    <div class="container narrow">
+      <h1>Delete your account</h1>
+      <p>You can delete your My Morning News account and its data at any time.</p>
+
+      <h2>From the web app</h2>
+      <ol>
+        <li>Sign in at <a href="https://app.mymorningnews.ai/login">app.mymorningnews.ai</a>.</li>
+        <li>Open <strong>Account settings</strong>.</li>
+        <li>Choose <strong>Delete account</strong> and confirm.</li>
+      </ol>
+
+      <h2>From the mobile app</h2>
+      <ol>
+        <li>Open the <strong>Account</strong> tab.</li>
+        <li>Choose <strong>Delete account</strong> and confirm.</li>
+      </ol>
+
+      <h2>By email</h2>
+      <p>If you can't sign in, email <a href="mailto:hello@latticetech.ai?subject=Delete%20my%20account">hello@latticetech.ai</a> from the address on your account and ask us to delete it. We'll confirm by email.</p>
+
+      <h2>What happens next</h2>
+      <ul>
+        <li>You're signed out everywhere right away, and scheduled runs, emails, and notifications stop.</li>
+        <li>After a 7-day grace period, your account and everything tied to it are permanently erased: topics, briefings, findings, audio, feedback, predictions, and settings. Signing in during the grace period cancels the deletion.</li>
+        <li>Usage records needed for cost accounting are kept without your name, email, or content.</li>
+      </ul>
+      <p>Want a copy first? Use <strong>Export data</strong> in Account settings before you delete.</p>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="/assets/glyph.png" alt="" width="28" height="28">
+        <span>My Morning News</span>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/support.html">Support</a>
+        <a href="/delete-account.html">Delete account</a>
+        <a href="https://github.com/jchristn/MyMorningNews">GitHub</a>
+      </nav>
+      <p class="copyright">&copy; <span id="year">2026</span> My Morning News</p>
+    </div>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+</html>
