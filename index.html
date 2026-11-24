@@ -71,7 +71,7 @@
             <a class="btn btn-primary" href="https://app.mymorningnews.ai/signup">Sign up free</a>
             <a class="btn btn-ghost" href="https://app.mymorningnews.ai/login">Log in</a>
           </div>
-          <p class="fine-print">Free while in alpha, with a monthly usage cap. No credit card.</p>
+          <p class="fine-print">Start free with up to five selected system briefings. No credit card.</p>
         </div>
 
         <figure class="briefing-card" aria-label="Illustration of a briefing">
@@ -204,8 +204,13 @@
 
     <section class="section section-alt" id="pricing">
       <div class="container narrow center">
-        <h2>Free while in alpha</h2>
-        <p class="section-lede">My Morning News is free during the alpha, with a monthly usage cap. You can see how much of it you've used at any time. If you reach the cap, scheduled runs pause until the next month and nothing is charged.</p>
+        <h2>Choose how you stay informed</h2>
+        <p class="section-lede">Start free with up to five briefings from the administrator-selected catalog, including shared audio. Upgrade for your own research topics, or connect your own model and speech keys.</p>
+        <div class="feature-grid">
+          <div class="feature"><h3>5 custom topics</h3><p><strong>$10/month or $100/year</strong></p><p>System catalog subscriptions, plus 30 generated audio minutes per day.</p></div>
+          <div class="feature"><h3>20 custom topics</h3><p><strong>$30/month or $300/year</strong></p><p>System catalog subscriptions, plus 100 generated audio minutes per day.</p></div>
+        </div>
+        <p class="fine-print">USD web prices. No trial. Audio generation resets at midnight UTC; replaying audio is free. Native store purchasing is coming with the next app release. Account-specific allowances may differ.</p>
         <a class="btn btn-primary" href="https://app.mymorningnews.ai/signup">Sign up free</a>
       </div>
     </section>
@@ -217,9 +222,9 @@
           <p>My Morning News is open source under the MIT license. Run the whole stack on your own machine or server with Docker, use your own model keys or local models through Ollama, and keep everything on your own hardware.</p>
           <a class="btn btn-ghost" href="https://github.com/jchristn/MyMorningNews">View on GitHub</a>
         </div>
-        <pre class="code" aria-label="Docker quick start"><code>git clone https://github.com/jchristn/MyMorningNews.git
+        <pre class="code" tabindex="0" aria-label="Docker quick start"><code>git clone https://github.com/jchristn/MyMorningNews.git
 cd MyMorningNews/docker
-docker compose up -d --build</code></pre>
+docker compose up -d</code></pre>
       </div>
     </section>
 
@@ -236,7 +241,7 @@ docker compose up -d --build</code></pre>
         </details>
         <details>
           <summary>What does it cost?</summary>
-          <p>Nothing during the alpha. Each account has a monthly usage cap. If you hit it, your runs pause until the cap resets. We'll announce any paid plans well in advance.</p>
+          <p>The selected system catalog is free for up to five subscriptions. Paid plans start at $10/month or $100/year for five custom topics and 30 generated audio minutes a day. The 20-topic plan is $30/month or $300/year with 100 audio minutes a day. There is no trial. With your own API keys, custom topics are unlimited and your providers bill you directly. Self-hosting is also unlimited.</p>
         </details>
         <details>
           <summary>What happens to my data?</summary>

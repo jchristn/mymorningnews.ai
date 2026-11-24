@@ -171,7 +171,7 @@ p { margin: 0 0 1em; }
 .card-forecast { margin-top: 14px; padding: 12px 14px; border-left: 4px solid var(--brand); background: var(--brand-soft); border-radius: 8px; }
 .card-forecast .label { display: block; font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: var(--brand-strong); }
 .card-forecast p { margin: 4px 0 0; font-size: 0.93rem; }
-.card-forecast em { color: var(--ink-faint); font-style: normal; white-space: nowrap; }
+.card-forecast em { color: var(--ink-soft); font-style: normal; white-space: nowrap; }
 .card-player { display: flex; align-items: center; gap: 12px; margin-top: 16px; }
 .play { width: 34px; height: 34px; border-radius: 50%; background: var(--ink); position: relative; flex: 0 0 auto; }
 .play::after { content: ""; position: absolute; left: 13px; top: 10px; border-left: 11px solid var(--bg); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
@@ -272,3 +272,8 @@ p { margin: 0 0 1em; }
   html { scroll-behavior: auto; }
   * { transition: none !important; animation: none !important; }
 }
+
+/* Package comparison keeps billing intervals aligned on wide and narrow screens. */
+.feature-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin: 32px 0; text-align: start; }
+.feature-grid .feature { padding: 24px; border: 1px solid var(--border); border-radius: 16px; }
+@media (max-width: 600px) { .feature-grid { grid-template-columns: 1fr; } }
